@@ -8,3 +8,9 @@ mysql -u username -p -D dbname < tableName.sql
 
 SELECT table_name, SUM(TABLE_ROWS)       FROM INFORMATION_SCHEMA.TABLES       WHERE TABLE_SCHEMA = 'asterisk' group by table_name;
 
+
+history | grep scp
+
+Asterisk
+
+/usr/sbin/asterisk -rvvvgc
