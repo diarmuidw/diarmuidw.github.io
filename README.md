@@ -14,3 +14,12 @@ history | grep scp
 Asterisk
 
 /usr/sbin/asterisk -rvvvgc
+
+show master status;
+
+slave stop;
+change master ..
+slave start;
+
+show slave status;
+
