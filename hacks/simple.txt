@@ -1,1 +1,9 @@
 tar -zcvf data.tar.gz data
+
+
+UFW
+
+sudo ufw allow from 12.23.34.45 to any port 8001
+
+sudo ufw status 
+
