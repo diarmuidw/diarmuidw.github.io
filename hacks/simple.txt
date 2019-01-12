@@ -1,4 +1,5 @@
 tar -zcvf data.tar.gz data
+tar -jcvf my-compressed.tar.bz2 /path/to/dir1/
 
 
 UFW
@@ -7,3 +8,6 @@ sudo ufw allow from 12.23.34.45 to any port 8001
 
 sudo ufw status 
 
+Django
+Orderby
+Entry.objects.filter(pub_date__year=2005).order_by('-pub_date', 'headline')
