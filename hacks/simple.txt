@@ -11,3 +11,14 @@ sudo ufw status
 Django
 Orderby
 Entry.objects.filter(pub_date__year=2005).order_by('-pub_date', 'headline')
+
+ufw status numbered
+ufw delete ####
+sudo ufw disable
+sudo ufw delete allow 80
+sudo ufw deny from 15.15.15.51
+
+sudo fail2ban-client reload
+
+sudo fail2ban-client status
+
